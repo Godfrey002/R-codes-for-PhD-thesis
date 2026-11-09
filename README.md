@@ -1,6 +1,6 @@
 
-R script for antifungal assay summary statistics, ANOVA, post hoc and bar charts
-
+**R script for antifungal assay summary statistics, ANOVA, post hoc and bar charts
+**
 
 # ============================================================
 # Concentrations used: C1, C2, 25, 50, 75 only
@@ -198,7 +198,6 @@ ggsave(
   units = "cm",
   device = cairo_pdf
 )
-# Optional: embed fonts into the PDF after saving
 # grDevices::embedFonts("Figure1_FINAL.pdf", outfile = "Figure1_FINAL_embedded.pdf")
 # -----------------------------
 # 8. Save tables
@@ -223,7 +222,11 @@ cat("✔ Manual (a–f) labels centered over 50 and near the top edge\n")
 cat("✔ Error bars represent standard error (SE)\n")
 cat("✔ PDF exported with cairo_pdf and sans font family\n")
 
+
+
 R script for germination assay summary statistics, ANOVA, post hoc and bar charts
+
+
 # ========================================================================
 # EFFECT OF NANOPARTICLES ON SEED GERMINATION PARAMETERS
 #
@@ -2235,8 +2238,14 @@ cat(
   "The figure displays the original percentage scale.\n\n"
 )
 
+
 # 
+
+
+
+
 R script for growth promotion assay summary statistics, ANOVA, post hoc and bar charts
+
 ========================================================================
 # TREATMENT CODING
 # ========================================================================
@@ -4573,7 +4582,13 @@ print(
 # ========================================================================
 # END OF SCRIPT
 # ========================================================================
+
+
+
 R script for proline and phenolic assay summary statistics, ANOVA, post hoc and bar charts
+
+
+
 # ========================================================================
 # 1. INSTALL REQUIRED PACKAGES
 # ========================================================================
@@ -6805,7 +6820,13 @@ print(
 # ========================================================================
 # END OF SCRIPT
 # ========================================================================
+
+
+
 R script for chlorophyll, carotenoid, MDA, CAT, POD, assay summary statistics, ANOVA, post hoc and bar charts
+
+
+
 ========================================================================
 # 1. INSTALL REQUIRED PACKAGES
 # ========================================================================
